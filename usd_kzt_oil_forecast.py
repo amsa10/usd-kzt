@@ -123,8 +123,7 @@ y_test_actual = scaler_y.inverse_transform(y_test.reshape(-1, 1))
 mse = np.mean((y_pred - y_test_actual) ** 2)
 print(f"Mean Squared Error (MSE): {mse}")
 
-import matplotlib.pyplot as plt
-%matplotlib inline
+
 # Plot the actual vs predicted prices
 plt.figure(figsize=(12, 6))
 plt.plot(y_test_actual, label='Actual Price (120 days ahead)', color='blue')
