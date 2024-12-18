@@ -1,4 +1,6 @@
 # usd-kzt
+
+```bash
 # Clone the GitHub repository
 !git clone https://github.com/amsa10/usd-kzt.git
 
